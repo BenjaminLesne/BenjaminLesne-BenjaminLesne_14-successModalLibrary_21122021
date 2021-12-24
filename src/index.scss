@@ -1,0 +1,23 @@
+body {
+  background-color: #f2f2f2;
+}
+.Standard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.Standard__successful-button {
+  border: none;
+  padding: 20px 40px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
